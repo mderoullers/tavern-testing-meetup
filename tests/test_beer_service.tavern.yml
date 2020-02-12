@@ -1,0 +1,16 @@
+---
+test_name: 'Check beer-api is up'
+
+stages:
+  - name: get the list of beers
+
+    request:
+      url: "{beer-api.url}"
+      method: GET
+      verify: false
+      auth:
+      - "{beer-api.user}"
+      - "{beer-api.pwd}"
+
+    response:
+      status_code: 200
