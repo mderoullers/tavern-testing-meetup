@@ -6,6 +6,10 @@ description:
 variables:
   env: dev
   beer-api:
-    url: http://localhost:8080/beer
+    url: http://localhost:8090/api/beers
+    user: admin
+    pwd: admin
+  food-api:
+    url: http://localhost:8080/foods
     user: admin
     pwd: admin

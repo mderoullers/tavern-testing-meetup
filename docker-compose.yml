@@ -25,4 +25,4 @@ services:
       #- -p
       #- no:logging
       # And then point to the folder we mounted above
-      - /tests  
+      - /tests
